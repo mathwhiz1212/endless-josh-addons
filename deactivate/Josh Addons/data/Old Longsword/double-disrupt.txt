@@ -1,0 +1,28 @@
+outfit "Double Shield Disruptor Turret"
+	category "Turrets"
+	cost 1983000
+	thumbnail "outfit/disruptor"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 15
+		"hardpoint sprite" "hardpoint/disruptor"
+		"hardpoint offset" 15.
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"turret turn" 1.5
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 16.0
+		"firing heat" 5.4
+		"shield damage" 7.6
+		"hull damage" 1.0
+		"disruption damage" .48
+	description "Shield Disruptor Turrets interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+

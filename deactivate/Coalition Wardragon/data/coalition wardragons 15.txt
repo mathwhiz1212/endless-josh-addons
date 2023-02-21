@@ -1,0 +1,28 @@
+#Short Description, Long Dialog.
+mission "Spawn 10 Wardragons"
+	description "Spawn wardragons to take into Coalition Space and increase rep with both sides by repairing ships."
+	job
+	repeat
+
+	npc
+        personality heroic
+        government Quarg
+#        personality staying
+#            confusion 0
+#        government "Alpha"
+#		system "Han"
+        ship "Quarg Wardragon" 1
+		ship "Quarg Wardragon" 2
+		ship "Quarg Wardragon" 3
+		ship "Quarg Wardragon" 4
+		ship "Quarg Wardragon" 5
+        ship "Quarg Wardragon" 6
+		ship "Quarg Wardragon" 7
+		ship "Quarg Wardragon" 8
+		ship "Quarg Wardragon" 9
+		ship "Quarg Wardragon" 10
+		ship "Quarg Wardragon" 11
+        ship "Quarg Wardragon" 12
+		ship "Quarg Wardragon" 13
+		ship "Quarg Wardragon" 14
+		ship "Quarg Wardragon" 15

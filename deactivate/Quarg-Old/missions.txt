@@ -1,0 +1,26 @@
+mission "Worms 3"
+	description "Worms 3"
+	job
+	repeat
+
+  on accept
+    dialog "accepted"
+
+  on fail
+    dialog "fail"
+
+  on offer
+    dialog "offered"
+
+  on complete
+    "complete"
+
+  on enter
+    dialog "entered"
+
+    npc kill
+      personality staying
+        confusion 0
+        government "Alpha"
+        system "Tebuteb"
+        ship "Quarg Wardragon" "Quarg Wardragon"

@@ -1,0 +1,2 @@
+system "Kor Ak'Mari"
+    add fleet "Korath Defense" 1200

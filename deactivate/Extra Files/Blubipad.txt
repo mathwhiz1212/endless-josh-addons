@@ -1,0 +1,60 @@
+system Blubipad
+	pos -650.587 594.051
+	government Coalition
+	attributes "arachi"
+	arrival 1080
+	habitable 1080
+	belt 1567
+	haze _menu/haze-133
+	link Ablub
+	link Miblulub
+	link "Sol Arach"
+	asteroids "small rock" 5 4
+	asteroids "medium rock" 17 5.55
+	asteroids "large rock" 5 5
+	asteroids "medium metal" 7 6.35
+	asteroids "large metal" 9 6.1
+	minables silver 7 5.80748
+	trade Clothing 351
+	trade Electronics 668
+	trade Equipment 653
+	trade Food 226
+	trade "Heavy Metals" 955
+	trade Industrial 665
+	trade "Luxury Goods" 1405
+	trade Medical 604
+	trade Metal 299
+	trade Plastic 374
+	fleet "Small Arach" 400
+	fleet "Large Arach" 800
+	fleet "Small Kimek" 1400
+	fleet "Large Kimek" 4000
+	fleet "Small Saryd" 1300
+	fleet "Large Saryd" 3000
+	fleet "Arach Miners" 4000
+	fleet "Kimek Miners" 8000
+	fleet "Saryd Miners" 7000
+	fleet Heliarch 300
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust2-b
+		distance 132.44
+		period 18.5514
+	object
+		sprite planet/cloud8-b
+		distance 356.68
+		period 81.9910
+	object "Blubipad's Workshop"
+		sprite planet/forest3
+		distance 1004.12
+		period 387.281
+	object
+		sprite planet/cloud2
+		distance 1286.96
+		period 561.947
+	object
+		sprite planet/rock3
+		distance 3003.77
+		period 2003.77

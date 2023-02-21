@@ -1,0 +1,2 @@
+planet "Laki Nemparu"
+    shipyard "Kor Efreti Advanced"

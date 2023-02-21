@@ -1,0 +1,20 @@
+#Short Description, Long Dialog.
+mission "Capture the Emerald Longsword"
+	description "Capture the Emerald Longsword in the Zubenelhakrabi system and return to Zug. this warship is more than twice as powerful as the Emerald Sword so it's recommended you have a strong fleet before continuing. You'll also need to have a boarding ship handy that can handle defeating a crew of 292. You may want to get some thermal repeaters. You can go back to Zug and get it if you need to. Bring the ship back here. All I want is the deionization tech, you can keep the ship."
+	job
+	repeat 
+
+    npc
+		personality waiting
+		government "Deep Security"
+		ship "Black Diamond" "D.P.S. Wyrd"
+
+	npc capture
+        personality staying
+            confusion 0
+        government "Alpha"
+		system "Zubenelhakrabi"
+		ship "Emerald Longsword" "Emerald Longsword"
+
+	on complete
+		dialog "Congratulations <first>, You have obtained an extremely powerful warship twice as powerful as the Emerald Sword. It is not invincible, but it can do great things if used wisely."

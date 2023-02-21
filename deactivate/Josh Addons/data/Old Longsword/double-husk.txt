@@ -1,0 +1,39 @@
+outfit "Double Husk-Slice Turret"
+	category "Turrets"
+	cost 2873000
+	thumbnail "outfit/slicer turret"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/slicer"
+			"frame rate" 6
+		"hardpoint sprite" "hardpoint/slicer turret"
+		"hardpoint offset" 17.
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" 0
+		"turret turn" 2.9
+		"velocity" 520
+		"lifetime" 1
+		"reload" 1.62
+		"burst reload" 1
+		"burst count" 34
+		"firing energy" 11.2
+		"firing heat" 35.6
+		"shield damage" 12.6
+		"hull damage" 33.4
+	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+
+effect "slicer impact"
+	sprite "effect/slicer impact"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 19
+	"random angle" 360
+	"random spin" 2
+	"random velocity" .1
+	"velocity scale" -.002
+

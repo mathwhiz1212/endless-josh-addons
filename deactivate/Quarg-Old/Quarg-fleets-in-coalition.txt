@@ -1,0 +1,2 @@
+#system Tebuteb
+#	add fleet "Large Quarg (Wormhole)" 2000
