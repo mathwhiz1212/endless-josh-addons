@@ -1,0 +1,60 @@
+mission "Wanderers: Sestor: Quarg Help 2B"
+	landing
+	name "Return to <planet>"
+	description "Return to <planet> with this small fleet of Quarg ships."
+	source "Alta Hai"
+	destination "Farpoint"
+	cargo "medical supplies" 2
+	blocked "You will need <capacity> to carry supplies back to Farpoint."
+	to offer
+		has "Wanderers: Sestor: Quarg Help 1: done"
+	on offer
+		conversation
+			`You take a risk and stick around for fifteen more minutes. Elias says "It's a miracle. There are eight more Quarg ships who volunteered to help," he says.
+			`	You thank him for his assistance, and hurry to fire up your ship and return to human space. Hopefully Danforth's base has not already been overrun in your absence.`
+				accept
+	npc accompany save
+		government "Quarg"
+		personality heroic waiting escort
+		ship "Quarg Wardragon" "Leukos-nikeseh"
+		ship "Quarg Wardragon" "Purros-machaira"
+		ship "Quarg Wardragon" "Melas-zugon"
+		ship "Quarg Wardragon" "Chloros-thanatos"
+#		ship "Quarg Wardragon" "Leukos-nikeseh"
+#		ship "Quarg Wardragon" "Purros-machaira"
+#		ship "Quarg Wardragon" "Melas-zugon"
+#		ship "Quarg Wardragon" "Chloros-thanatos"
+
+
+
+#On visit not Fairpoint, fail. Essential mission, reload from save.
+
+mission "Wanderers: Sestor: Farpoint Attack 2B"
+	landing
+	name "Return to <planet>"
+	description "Defeat the fleet over Farpoint and return to Farpoint."
+	source "Farpoint"
+	destination "Farpoint"
+	to offer
+		has "Wanderers: Sestor: Quarg Help 2: done"
+	on offer
+		conversation
+			`You consider for a moment that you may be able to destroy the fleet after all. Not all of the Quarg ships landed. Maybe Danforth doesn't know the strength of your allies.`
+				accept
+	npc accompany save
+		government "Quarg"
+		personality heroic waiting escort
+		ship "Quarg Wardragon" "Leukos-nikeseh"
+		ship "Quarg Wardragon" "Purros-machaira"
+		ship "Quarg Wardragon" "Melas-zugon"
+		ship "Quarg Wardragon" "Chloros-thanatos"
+#		ship "Quarg Wardragon" "Leukos-nikeseh"
+#		ship "Quarg Wardragon" "Purros-machaira"
+#		ship "Quarg Wardragon" "Melas-zugon"
+#		ship "Quarg Wardragon" "Chloros-thanatos"
+
+
+
+#On visit not Fairpoint, fail. Essential mission, reload from save.
+
+
